@@ -1,0 +1,78 @@
+.container{
+    margin: 20px;
+    padding: 10px;
+}
+
+.banner {
+    height: 80px;
+    width: 100%;
+    background-color: #4fb3d4;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 20px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.cards {
+    white-space: nowrap; /* Ensures cards stay in a row */
+    display: flex;
+    justify-content: flex-start; /* Align cards to the start */
+    gap: 20px; /* Space between cards */
+    padding: 10px; /* Padding for the container */
+    margin-top: 30px; /* Margin for the top */
+    overflow-x: auto; /* Enable horizontal scroll */
+
+}
+.banner_p{
+    height: 80px;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+
+.hero{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    
+    overflow: hidden;
+    margin-right: 40px;
+}
+.hero .content {
+    flex: 1;
+    padding: 10px;
+}
+.e-area{
+    justify-content: space-between;
+    margin-block: 30px;
+    display: flex;
+}
+.e-card{
+    width: 23%;
+    position: relative;
+    min-height: 300px ;
+    color: white;  
+    border-radius: 30px; 
+}
+.e-txt{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}
+.end{
+    margin-top: 80px;
+    height: 200px;
+    background-color: rgb(239, 222, 222) ;
+    margin: opx;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
